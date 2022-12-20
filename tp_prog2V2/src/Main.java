@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Repositorio rep1 = new Repositorio();
-        File ficheiro = new File("C:\\Users\\tiago\\IdeaProjects\\tp_prog2V2\\tp_prog2V2\\src\\ficheiros", "utilizadores.csv");
+        File ficheiro = new File("C:\\Users\\tiago\\IdeaProjects\\tp_prog2V2\\tp_prog2V2\\src\\ficheiros\\utilizadores.csv");
 
         rep1.deserializar(ficheiro);
 
